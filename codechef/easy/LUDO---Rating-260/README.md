@@ -52,7 +52,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T17:37:48.665Z  
+**Submitted:** 2026-10-01T17:38:00.583Z  
 
 ```java
 import java.util.*;
@@ -82,7 +82,9 @@ class Codechef
         scanner.close();
 	}
 }
-
+   
+   
+   
 ```
 
 ---
