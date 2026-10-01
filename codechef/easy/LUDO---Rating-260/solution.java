@@ -25,6 +25,3 @@ class Codechef
         scanner.close();
 	}
 }
-   
-   
-   
