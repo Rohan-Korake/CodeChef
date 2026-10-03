@@ -41,23 +41,23 @@ Explanation: The strings that can be formed are "hello" and "world" so the answe
 ## Solution
 
 **Language:** C++  
-**Runtime:** 98 ms (beats 23.20%)  
-**Memory:** 50.9 MB (beats 23.40%)  
-**Submitted:** 2026-10-03T13:19:15.062Z  
+**Runtime:** 91 ms (beats 27.69%)  
+**Memory:** 50.8 MB (beats 24.59%)  
+**Submitted:** 2026-10-03T13:21:19.565Z  
 
 ```cpp
 class Solution {
 public:
-    int countCharacters(std::vector<std::string>& words, std::string chars) {
-        std::unordered_map<char, int> charCount;
+    int countCharacters(vector<string>& words, string chars) {
+        unordered_map<char, int> charCount;
         for (char c : chars) {
             charCount[c]++;
         }
         
         int totalLength = 0;
         
-        for (const std::string& word : words) {
-            std::unordered_map<char, int> tempCount = charCount;
+        for (const string& word : words) {
+            unordered_map<char, int> tempCount = charCount;
             bool canForm = true;
             
             for (char c : word) {
