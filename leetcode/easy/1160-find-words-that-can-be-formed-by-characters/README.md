@@ -41,9 +41,9 @@ Explanation: The strings that can be formed are "hello" and "world" so the answe
 ## Solution
 
 **Language:** C++  
-**Runtime:** 91 ms (beats 27.69%)  
-**Memory:** 50.8 MB (beats 24.59%)  
-**Submitted:** 2026-10-03T13:21:19.565Z  
+**Runtime:** 94 ms (beats 25.91%)  
+**Memory:** 50.6 MB (beats 25.58%)  
+**Submitted:** 2026-10-03T13:26:49.628Z  
 
 ```cpp
 class Solution {
@@ -53,13 +53,10 @@ public:
         for (char c : chars) {
             charCount[c]++;
         }
-        
         int totalLength = 0;
-        
         for (const string& word : words) {
             unordered_map<char, int> tempCount = charCount;
             bool canForm = true;
-            
             for (char c : word) {
                 if (tempCount[c] > 0) {
                     tempCount[c]--;
@@ -68,12 +65,10 @@ public:
                     break;
                 }
             }
-            
             if (canForm) {
                 totalLength += word.length();
             }
         }
-        
         return totalLength;
     }
 };
