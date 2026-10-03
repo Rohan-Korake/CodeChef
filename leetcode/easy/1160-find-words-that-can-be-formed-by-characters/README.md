@@ -41,9 +41,9 @@ Explanation: The strings that can be formed are "hello" and "world" so the answe
 ## Solution
 
 **Language:** C++  
-**Runtime:** 94 ms (beats 25.91%)  
+**Runtime:** 101 ms (beats 21.09%)  
 **Memory:** 50.6 MB (beats 25.58%)  
-**Submitted:** 2026-10-03T13:26:49.628Z  
+**Submitted:** 2026-10-03T13:26:57.693Z  
 
 ```cpp
 class Solution {
