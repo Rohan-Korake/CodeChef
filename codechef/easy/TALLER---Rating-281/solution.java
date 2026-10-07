@@ -17,7 +17,7 @@ class Codechef
 	    if(first==160)
 	    {
 	        System.out.println("A");
-	    } 
+	    } else 
 	    if(second==160)
 	    {
 	        System.out.println("B");
