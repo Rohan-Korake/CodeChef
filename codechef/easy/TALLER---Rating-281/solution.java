@@ -14,10 +14,10 @@ class Codechef
             int first = scanner.nextInt();
             int second = scanner.nextInt();
 
-            if (first>second && first!=second)
+            if (first == 160)
             {
                 System.out.println("A");
-            } else if (first<second && first!=second)
+            } else if (second == 160)
             {
                 System.out.println("B");
             }
