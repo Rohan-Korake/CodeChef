@@ -62,7 +62,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T19:19:53.265Z  
+**Submitted:** 2026-10-07T19:20:11.116Z  
 
 ```java
 import java.util.*;
@@ -83,7 +83,8 @@ class Codechef
             {
                 System.out.println("YES");
             }
-            else {
+            else
+            {
                 System.out.println("NO");
             }
         }
