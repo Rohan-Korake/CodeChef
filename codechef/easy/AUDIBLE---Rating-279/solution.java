@@ -16,7 +16,8 @@ class Codechef
             {
                 System.out.println("YES");
             }
-            else {
+            else
+            {
                 System.out.println("NO");
             }
         }
