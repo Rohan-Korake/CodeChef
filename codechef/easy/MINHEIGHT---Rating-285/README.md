@@ -55,7 +55,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T20:43:55.637Z  
+**Submitted:** 2026-10-07T20:54:51.492Z  
 
 ```java
 import java.util.*;
