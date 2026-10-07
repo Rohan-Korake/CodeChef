@@ -49,7 +49,7 @@ A
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T19:37:54.829Z  
+**Submitted:** 2026-10-07T19:38:21.539Z  
 
 ```java
 import java.util.*;
@@ -71,7 +71,7 @@ class Codechef
 	    if(first==160)
 	    {
 	        System.out.println("A");
-	    } 
+	    } else 
 	    if(second==160)
 	    {
 	        System.out.println("B");
