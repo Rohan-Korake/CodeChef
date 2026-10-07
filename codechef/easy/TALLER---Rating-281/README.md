@@ -49,7 +49,7 @@ A
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T19:38:21.539Z  
+**Submitted:** 2026-10-07T19:40:25.660Z  
 
 ```java
 import java.util.*;
@@ -58,29 +58,27 @@ import java.io.*;
 
 class Codechef
 {
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	Scanner scanner=new Scanner(System.in);
-	int t=scanner.nextInt();
-	
-	for(int i=0;i<t;i++)
-	{
-	    int first=scanner.nextInt();
-	    int second=scanner.nextInt();
-	    
-	    if(first==160)
-	    {
-	        System.out.println("A");
-	    } else 
-	    if(second==160)
-	    {
-	        System.out.println("B");
-	    }
-	}
+    public static void main(String[] args) throws java.lang.Exception
+    {
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
 
-	}
+        for (int i = 0; i < t; i++)
+        {
+            int first = scanner.nextInt();
+            int second = scanner.nextInt();
+
+            if (first == 160 && first!=second)
+            {
+                System.out.println("A");
+            } else if (second == 160 && first!=second)
+            {
+                System.out.println("B");
+            }
+        }
+
+    }
 }
-
 ```
 
 ---
