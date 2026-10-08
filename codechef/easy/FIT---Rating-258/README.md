@@ -56,7 +56,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T17:38:45.757Z  
+**Submitted:** 2026-10-08T08:53:03.188Z  
 
 ```java
 import java.util.Scanner;
@@ -76,8 +76,6 @@ public class Main {
             }
             System.out.println(totalDistance);
         }
-        
-        
         scanner.close();
     }
 }
