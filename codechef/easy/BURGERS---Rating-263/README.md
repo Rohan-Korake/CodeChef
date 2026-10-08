@@ -56,7 +56,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T17:29:16.945Z  
+**Submitted:** 2026-10-08T08:54:03.407Z  
 
 ```java
 
