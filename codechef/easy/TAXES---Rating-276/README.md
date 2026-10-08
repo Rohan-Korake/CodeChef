@@ -55,7 +55,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T13:31:55.827Z  
+**Submitted:** 2026-10-08T13:32:02.598Z  
 
 ```java
 import java.util.*;
@@ -64,25 +64,24 @@ import java.io.*;
 
 class Codechef
 {
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		Scanner scanner = new Scanner(System.in);
-		int t=scanner.nextInt();
-		
-		for(int i=0;i<t;i++)
-		{
-		    int income=scanner.nextInt();
-		    if(income>100)
-		    {
-		        System.out.println(income-10);
-		    }else{
-		        System.out.println(income);
-		    }
-		}
+    public static void main(String[] args) throws java.lang.Exception
+    {
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
 
-	}
+        for (int i = 0; i < t; i++)
+        {
+            int income = scanner.nextInt();
+            if (income > 100)
+            {
+                System.out.println(income - 10);
+            } else {
+                System.out.println(income);
+            }
+        }
+
+    }
 }
-
 ```
 
 ---
