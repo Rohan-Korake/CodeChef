@@ -49,7 +49,7 @@ A
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T19:38:32.298Z  
+**Submitted:** 2026-10-09T18:35:13.867Z  
 
 ```java
 import java.util.*;
@@ -68,10 +68,10 @@ class Codechef
             int first = scanner.nextInt();
             int second = scanner.nextInt();
 
-            if (first == 160)
+            if (first>second && first!=second)
             {
                 System.out.println("A");
-            } else if (second == 160)
+            } else if (first<second && first!=second)
             {
                 System.out.println("B");
             }
